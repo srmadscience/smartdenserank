@@ -47,7 +47,7 @@ create INDEX rps_ix1 ON rows_per_score_view (comp_id,score,how_many);
 CREATE INDEX rix3 ON ratings (comp_id, score);
 CREATE INDEX rix4 ON ratings (comp_id, u_rank, user_id);
 
-load classes ../../smartdenserank.jar;
+load classes ../jars/smartdenserank.jar;
 
 
 CREATE PROCEDURE 
